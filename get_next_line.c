@@ -6,7 +6,7 @@
 /*   By: aloubry <aloubry@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/07 13:02:28 by aloubry           #+#    #+#             */
-/*   Updated: 2024/10/08 10:39:09 by aloubry          ###   ########.fr       */
+/*   Updated: 2024/10/10 13:27:26 by aloubry          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,7 +81,7 @@ static ssize_t	read_and_process(int fd, t_buffer *buff, char **new)
 
 char	*get_next_line(int fd)
 {
-	static t_buffer	buffers[MAX_FD] = {0};
+	static t_buffer	buffers[MAX_FD];
 	char			*new;
 	ssize_t			bytes_read;
 

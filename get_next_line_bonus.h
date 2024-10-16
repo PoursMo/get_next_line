@@ -6,7 +6,7 @@
 /*   By: aloubry <aloubry@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/07 13:00:17 by aloubry           #+#    #+#             */
-/*   Updated: 2024/10/08 10:43:25 by aloubry          ###   ########.fr       */
+/*   Updated: 2024/10/10 13:33:56 by aloubry          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 
 # include <stdlib.h>
 # include <unistd.h>
+# include <stdint.h>
 
 # define MAX_FD 1024
 # ifndef BUFFER_SIZE
